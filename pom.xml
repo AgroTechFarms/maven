@@ -119,12 +119,7 @@ under the License.
     <url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven/</url>
   </ciManagement>
   <distributionManagement>
-    <downloadUrl>https://maven.apache.org/download.html</downloadUrl>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</url>
-    </site>
-      
+    
       <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
