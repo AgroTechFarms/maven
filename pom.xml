@@ -124,6 +124,19 @@ under the License.
       <id>apache.website</id>
       <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</url>
     </site>
+      
+      <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://3.108.55.253:8081/repository/maven-stanalone-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.108.55.253:8081/repository/maven-standalone-snapshot/</url>
+	    </snapshotRepository>
+	    
   </distributionManagement>
 
   <contributors>
